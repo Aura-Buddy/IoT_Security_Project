@@ -4,4 +4,4 @@ An autonomous alert security system, this project is made to keep homes secure b
 
 ## Additionally
 
-If you clone this repo, you must include a file named, "twilio_account.py", that contains variables for your twilio sid, auth_token, your phone number and your twilio phone number. If this is not present, your script will not work
+If you clone this repo, you must include a file named, "twilio_account.py" that contains variables for your twilio sid, auth_token, your phone number and your twilio phone number. If this file is not present in the same directory as this script, your script will not work
