@@ -6,10 +6,7 @@ import subprocess
 import time
 
 def main():
-	t = 0
-	while t < 10:
-		subprocess.run(["libcamera-still","-t", "0", "--immediate","-o", "output.jpg"])
-		print("Image taken waiting 10 seconds before the next")
-		time.sleep(10)
-		t+=1
+	subprocess.run(["libcamera-still","-t", "0", "--immediate","-o", "output.jpg"])
+	print("Image taken waiting 10 seconds before the next")
+	time.sleep(10)
 main()
